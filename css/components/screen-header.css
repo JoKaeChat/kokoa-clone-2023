@@ -5,6 +5,15 @@
     padding : var(--horizontal-space);
     margin-bottom : 0px;
     padding-bottom : 10px;
+    background-color: #f9f9fa;
+    padding-top:40px;
+    padding-bottom :30px;
+    
+}
+
+
+.screen-header__icons{
+    display: flex;
 }
 
 .screen-header__title{
@@ -16,3 +25,20 @@
 .screen-header__icons span{
     margin-left : 20px;
 }
+
+.cog{
+    position:relative;
+    margin-left:20px;
+    
+}
+
+.dot{
+    width : 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color : red;
+    position : absolute;
+    top:0px;
+    right:0px;
+}
+
